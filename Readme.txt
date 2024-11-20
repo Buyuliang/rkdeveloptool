@@ -9,7 +9,7 @@ compile and install
 5.autoheader
 5.automake --add-missing
 4 ./configure
-5 make
+5 make  (use make CXXFLAGS="-Wno-deprecated-declarations" CFLAGS="-Wno-deprecated-declarations")
 
 rkdeveloptool usage,input "rkdeveloptool -h" to see
 
